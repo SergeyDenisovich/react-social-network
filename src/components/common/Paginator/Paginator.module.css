@@ -1,0 +1,20 @@
+.page_number {
+  padding: 2px;
+  border: 1px solid gray;
+}
+
+.page_number.selected_page {
+  font-weight: bold;
+  border-color: black;
+}
+
+.pagination_buttons {
+  margin: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pagination_buttons span {
+  cursor: pointer;
+}

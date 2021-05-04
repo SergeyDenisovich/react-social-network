@@ -1,0 +1,11 @@
+.user_photo {
+  width: 70px;
+  /* height: 200px; */
+  border-radius: 50%;
+}
+
+.users_container {
+  max-width: 400px;
+  margin: 10px auto;
+  text-align: center;
+}

@@ -1,0 +1,27 @@
+html,
+body {
+  background-color: black;
+}
+
+.app-wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  /* border: 2px solid black; */
+  background-color: green;
+  color: black;
+
+  display: grid;
+
+  grid-template-areas:
+    'h h'
+    'n c';
+
+  grid-template-rows: 70px 1fr;
+  grid-template-columns: 2fr 10fr;
+}
+
+.app-wrapper-content {
+  grid-area: c;
+  border: 1px solid black;
+  background-color: chocolate;
+}
